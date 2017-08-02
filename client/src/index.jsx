@@ -1,20 +1,48 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'aframe';
-import {Entity, Scene} from 'aframe-react';
 import 'babel-polyfill'
 import 'aframe-particle-system-component';
+import VRStories from 'aframe-react-stories';
+import mockData from './mockdata.js';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      user: {},
+      friends: null,
+      assets: [],
+      inVRMode: true,
+      //  for view count:
+      dBProfileId: null,
+      viewers: [],
+      storyDBId: null,
+      viewsButton: false
+    };
+  }
+  
+  assetsCallback(assets) {
+    this.setState({ assets });
+  }
+
   render () {
     return (
-      <Scene>
-        <Entity geometry={{primitive: 'box'}} material={{color: 'red'}} position={{x: 0, y: 0, z: -5}}/>
-        <Entity particle-system={{preset: 'snow'}}/>
-        <Entity light={{type: 'point'}}/>
-        <Entity gltf-model={{src: 'virtualcity.gltf'}}/>
-        <Entity text={{value: 'Hello, WebVR!'}}/>
-      </Scene>
+      <a-scene>
+        <a-assets>
+          {this.state.assets}
+        </a-assets>
+        <VRStories 
+          user={mockData.user}
+          friends={mockData.friends}
+          autoPlayNext={false}
+          autoPlayStart={false}
+          enableAnimation={true}
+          splashScreen={'/splash.jpg'}
+          assetsCallback={this.assetsCallback.bind(this)}
+          viewCallback={() => { return; }}
+        />
+      </a-scene>
     )
   }
 }

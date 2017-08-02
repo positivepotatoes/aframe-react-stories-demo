@@ -12,7 +12,7 @@
   "dependencies": {
     "aframe": "^0.6.1",
     "aframe-particle-system-component": "^1.0.10",
-    "aframe-react": "^4.3.0",
+    "aframe-react-stories": "^1.0.1",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
     "babel-polyfill": "^6.23.0",
