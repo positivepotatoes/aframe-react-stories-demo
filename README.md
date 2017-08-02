@@ -1,5 +1,5 @@
 #A-Frame React Stories Demo
-A demonstration of using the [aframe-react-stories](https://www.npmjs.com/package/aframe-react-stories) npm module
+A demonstration of using the [aframe-react-stories](https://www.npmjs.com/package/aframe-react-stories) npm module.
 Credits to [VR Hello World](https://github.com/alexanderschnapp/vr-hello-world)
 
 ##Usage

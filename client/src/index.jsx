@@ -3,8 +3,11 @@ import ReactDOM from 'react-dom';
 import 'aframe';
 import 'babel-polyfill'
 import 'aframe-particle-system-component';
+import 'aframe-animation-component';
+import 'aframe-mouse-cursor-component';
 import VRStories from 'aframe-react-stories';
 import mockData from './mockdata.js';
+
 
 class App extends React.Component {
   constructor(props) {
@@ -21,28 +24,31 @@ class App extends React.Component {
       viewsButton: false
     };
   }
-  
+
   assetsCallback(assets) {
     this.setState({ assets });
   }
-
+  
   render () {
     return (
-      <a-scene>
-        <a-assets>
-          {this.state.assets}
-        </a-assets>
-        <VRStories 
-          user={mockData.user}
-          friends={mockData.friends}
-          autoPlayNext={false}
-          autoPlayStart={false}
-          enableAnimation={true}
-          splashScreen={'/splash.jpg'}
-          assetsCallback={this.assetsCallback.bind(this)}
-          viewCallback={() => { return; }}
-        />
-      </a-scene>
+      <div style={{ position:'absolute', height: '100%', width: '100%' }}>
+        <a-scene>
+          <a-assets>
+            {this.state.assets}
+          </a-assets>
+          <VRStories 
+            user={mockData.user}
+            friends={mockData.friends}
+            autoPlayNext={false}
+            autoPlayStart={false}
+            enableAnimation={false}
+            splashScreen={'/assets/0_splash.jpg'}
+            assetsCallback={this.assetsCallback.bind(this)}
+            viewCallback={() => { return; }}
+          />
+          <a-entity camera look-controls mouse-cursor/>
+        </a-scene>
+      </div>
     )
   }
 }
