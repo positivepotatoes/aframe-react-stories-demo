@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'aframe';
 import 'babel-polyfill'
-import 'aframe-particle-system-component';
 import 'aframe-animation-component';
 import 'aframe-mouse-cursor-component';
 import VRStories from 'aframe-react-stories';
