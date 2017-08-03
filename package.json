@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev-start":"nodemon server/index.js",
+    "dev-start": "nodemon server/index.js",
     "dev-build": "webpack -w",
     "start": "node server/index.js",
     "build": "webpack -p"
@@ -15,7 +15,7 @@
     "aframe": "^0.6.1",
     "aframe-animation-component": "^3.2.5",
     "aframe-mouse-cursor-component": "^0.5.2",
-    "aframe-react-stories": "^1.0.1",
+    "aframe-react-stories": "^2.0.1",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
     "babel-polyfill": "^6.23.0",
