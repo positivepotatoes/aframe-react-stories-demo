@@ -4,17 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server/index.js",
-    "build": "webpack -w"
+    "dev-start": "nodemon server/index.js",
+    "dev-build": "webpack -w",
+    "start": "node server/index.js",
+    "build": "webpack -p"
   },
-  "author": "Alexander Schnapp",
+  "author": "Alexander Schnapp, Anna Zharkova, Corey Chau, David Oh",
   "license": "MIT",
   "dependencies": {
     "aframe": "^0.6.1",
     "aframe-animation-component": "^3.2.5",
     "aframe-mouse-cursor-component": "^0.5.2",
-    "aframe-particle-system-component": "^1.0.10",
-    "aframe-react-stories": "^1.0.1",
+    "aframe-react-stories": "^2.0.2",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
     "babel-polyfill": "^6.23.0",

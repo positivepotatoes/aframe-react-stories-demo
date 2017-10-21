@@ -2,10 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'aframe';
 import 'babel-polyfill'
-import 'aframe-particle-system-component';
 import 'aframe-animation-component';
 import 'aframe-mouse-cursor-component';
-import VRStories from 'aframe-react-stories';
+import Stories from 'aframe-react-stories';
 import mockData from './mockdata.js';
 
 
@@ -36,12 +35,12 @@ class App extends React.Component {
           <a-assets>
             {this.state.assets}
           </a-assets>
-          <VRStories 
+          <Stories
             user={mockData.user}
             friends={mockData.friends}
             autoPlayNext={false}
             autoPlayStart={false}
-            enableAnimation={false}
+            enableAnimation={true}
             splashScreen={'/assets/0_splash.jpg'}
             assetsCallback={this.assetsCallback.bind(this)}
             viewCallback={() => { return; }}

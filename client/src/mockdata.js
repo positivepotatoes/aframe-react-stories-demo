@@ -1,11 +1,9 @@
 module.exports = {
   user: {
-    'profile': {
-      'first': 'Alexander',
-      'last': 'Schnapp',
-      'display': 'Alexander Schnapp',
-      'img_url': '/assets/1_ironman.jpg'
-    },
+    'first': 'Alexander',
+    'last': 'Schnapp',
+    'displayName': 'Alexander',
+    'img_url': '/assets/1_ironman.jpg',
     'stories': [
       {
         'type': 'image/jpeg',
@@ -19,12 +17,10 @@ module.exports = {
   },
   friends: [
     {
-      'profile': {
-        'first': 'Anna',
-        'last': 'Zharkova',
-        'display': 'Anna Zharkova',
-        'img_url': '/assets/2_minion.jpg'
-      },
+      'first': 'Anna',
+      'last': 'Zharkova',
+      'displayName': 'Anna',
+      'img_url': '/assets/2_minion.jpg',
       'stories': [
         {
           'type': 'image/jpeg',
@@ -41,12 +37,10 @@ module.exports = {
       ]
     },
     {
-      'profile': {
-        'first': 'Corey',
-        'last': 'Chau',
-        'display': 'Corey Chau',
-        'img_url': '/assets/3_corey.jpg'
-      },
+      'first': 'Corey',
+      'last': 'Chau',
+      'displayName': 'Corey',
+      'img_url': '/assets/3_cory.jpg',
       'stories': [
         {
           'type': 'video/mp4',
@@ -63,12 +57,10 @@ module.exports = {
       ]
     },
     {
-      'profile': {
-        'first': 'David',
-        'last': 'Oh',
-        'display': 'David Oh',
-        'img_url': '/assets/4_franklin.jpg'
-      },
+      'first': 'David',
+      'last': 'Oh',
+      'displayName': 'David',
+      'img_url': '/assets/4_franklin.jpg',
       'stories': [
         {
           'type': 'image/jpeg',
@@ -85,12 +77,11 @@ module.exports = {
       ]
     },
     {
-      'profile': {
-        'first': 'Loki',
-        'last': 'Loptr',
-        'display': 'Loki Loptr',
-        'img_url': '/assets/5_loki.jpg'
-      },
+
+      'first': 'Loki',
+      'last': 'Loptr',
+      'displayName': 'Loki',
+      'img_url': '/assets/5_loki.jpg',
       'stories': [
         {
           'type': 'video/mp4',
@@ -107,12 +98,10 @@ module.exports = {
       ]
     },
     {
-      'profile': {
-        'first': 'Bruce',
-        'last': 'Wayne',
-        'display': 'Batman',
-        'img_url': '/assets/6_batman.jpg'
-      },
+      'first': 'Bruce',
+      'last': 'Wayne',
+      'displayName': 'Batman',
+      'img_url': '/assets/6_batman.jpg',
       'stories': [
         {
           'type': 'image/jpeg',
@@ -129,21 +118,18 @@ module.exports = {
       ]
     },
     {
-      'profile': {
-        'first': 'Joker',
-        'last': 'Joker',
-        'display': 'Joker',
-        'img_url': '/assets/7_joker.jpg'
-      },
+
+      'first': 'Joker',
+      'last': 'Joker',
+      'displayName': 'Joker',
+      'img_url': '/assets/7_joker.jpg',
       'stories': []
     },
     {
-      'profile': {
-        'first': 'Max',
-        'last': 'Eisenhardt',
-        'display': 'Magneto',
-        'img_url': '/assets/8_magneto.jpg'
-      },
+      'first': 'Max',
+      'last': 'Eisenhardt',
+      'displayName': 'Magneto',
+      'img_url': '/assets/8_magneto.jpg',
       'stories': [
         {
           'type': 'video/mp4',
@@ -160,12 +146,10 @@ module.exports = {
       ]
     },
     {
-      'profile': {
-        'first': 'Rocko',
-        'last': 'Wallaby',
-        'display': 'Rocko',
-        'img_url': '/assets/9_rocko.jpg'
-      },
+      'first': 'Rocko',
+      'last': 'Wallaby',
+      'displayName': 'Rocko',
+      'img_url': '/assets/9_rocko.jpg',
       'stories': []
     },
   ]

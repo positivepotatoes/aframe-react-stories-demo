@@ -41,13 +41,9 @@ aframe-mouse-cursor-component@^0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/aframe-mouse-cursor-component/-/aframe-mouse-cursor-component-0.5.2.tgz#6ce6926a3718691fba3be7561d853de33ba5cce4"
 
-aframe-particle-system-component@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/aframe-particle-system-component/-/aframe-particle-system-component-1.0.10.tgz#dc2174072f4ef7d1757a1bfd3d86be4e8768bb30"
-
-aframe-react-stories@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/aframe-react-stories/-/aframe-react-stories-1.0.1.tgz#5f4de4bc9bc270e73e1753b1b29114285dbf7ed5"
+aframe-react-stories@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/aframe-react-stories/-/aframe-react-stories-2.0.2.tgz#f7c8de0c8bc9d291e62c5c4be30a3614e2b781da"
   dependencies:
     react "^15.5.4"
 
