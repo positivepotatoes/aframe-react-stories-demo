@@ -21,7 +21,7 @@
     "babel-polyfill": "^6.23.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "webpack": "^3.3.0"
